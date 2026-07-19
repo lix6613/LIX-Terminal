@@ -6,7 +6,6 @@
     // ============================================================
     
     // OPCJA 1: GitHub Releases (POLECANA)
-    const EXE_URL = 'https://github.com/TWOJA_NAZWA/lix-website/releases/download/v2.6.0/lix-terminal-setup.exe';
     
     // OPCJA 2: Plik w tym samym folderze
     // const EXE_URL = 'lix-terminal-setup.exe';
@@ -47,7 +46,7 @@
             
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'lix-terminal-setup.exe';
+            link.download = 'Lix-Terminal-Setup.exe';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
